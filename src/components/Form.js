@@ -29,7 +29,7 @@ function Form() {
     }
   }
 
-  // Assuming you want to display the list of submissions
+  
   const listOfSubmissions = submittedData.map((data, index) => (
     <p key={index}>
       {data.firstName} {data.lastName}
